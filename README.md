@@ -1,7 +1,6 @@
-Sbt Hello World Demo
+ScalaFX Hover Demo
 ====================
 
-```
-brew install sbt
-sbt test
-```
+Open it in IDEA, and run, you will see a window, and when you hover on the Green block it will turn to red.
+
+This code is copied from <http://www.scalafx.org/>
