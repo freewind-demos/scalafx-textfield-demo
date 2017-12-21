@@ -3,7 +3,7 @@ package my
 import scalafx.application
 import scalafx.application.JFXApp
 import scalafx.scene.Scene
-import scalafx.scene.control.Label
+import scalafx.scene.control.TextField
 
 object Hello extends JFXApp {
 
@@ -12,7 +12,9 @@ object Hello extends JFXApp {
     width = 600
     height = 400
     scene = new Scene {
-      content = new Label("Hello, JavaFX")
+      content = new TextField {
+        text = "Hello TextField"
+      }
     }
   }
 }
